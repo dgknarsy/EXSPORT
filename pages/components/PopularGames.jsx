@@ -8,7 +8,7 @@ const PopularGames = () => {
         Popular Games
       </h2>
       <div>
-        <div className="grid md:grid-cols-4 !grid-cols-2 ">
+        <div className="grid lg:grid-cols-4 grid-cols-2 ">
           <div className="w-[262px] h-[340px] bg-white flex flex-col items-center mb-16 rounded-xl">
             <Image
               src="/images/p1.svg"

@@ -13,8 +13,8 @@ const Comment = () => {
           with our services and products.
         </p>
       </div>
-      <div className=" md:flex sm:justify-center sm:flex-row flex-col  justify-center items-center gap-8">
-        <div className="w-[297px] h-[297px]  bg-white rounded-2xl flex flex-col  items-center">
+      <div className="md:flex sm:justify-center lg:flex-row flex-col justify-center items-center gap-8">
+        <div className="w-[297px] h-[297px] md:0 ml-11 bg-white rounded-2xl flex flex-col  items-center">
           <Image
             src="/images/c1.svg"
             width="90"
@@ -61,7 +61,7 @@ const Comment = () => {
             adipiscing elit. Sed vel leo vitae ipsum vestibulum porta.
           </p>
         </div>
-        <div className="w-[297px] h-[297px]  md:mt-0 mt-5  ml-8 bg-white rounded-2xl flex flex-col  items-center">
+        <div className="w-[297px] h-[297px]  md:mt-0 mt-5  md:0 ml-11 bg-white rounded-2xl flex flex-col  items-center">
           <Image
             src="/images/c3.svg"
             width="90"
